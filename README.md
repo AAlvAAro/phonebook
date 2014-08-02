@@ -64,12 +64,15 @@ Ruby on Rails project running on linux and deployed to heroku.
   heroku create [project-name]
   ```
 
-* Create a repository with github
+* Create a repository with git (this is a requirement for heroku deploy)
   ```bash
   git init
   git add .
   git commit -m "Your message"
   ```
+  If git is not installed run
+  ```bash
+  sudo apt-get install git
 
 * Push the repository to heroku
   ```bash
